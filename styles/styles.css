@@ -176,3 +176,47 @@ nav{
     padding-bottom: 20px;
     line-height: 1;
 }
+/*************** Resources Styles End *****************/
+/*************** Facts Styles Start *****************/
+#facts{
+    margin: 40px 40px;
+}
+.facts-upper{
+    padding-left: 20px;
+}
+.facts-upper h1{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.facts-upper p{
+    color: #727272;
+    font-size: 14px;
+}
+
+.facts-lower {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; */
+    margin-bottom: 50px;
+}
+.facts-items{
+    text-align: center;
+    border: 1px solid #FF900E;
+    margin: 40px 45px;
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+.facts-items img{
+    width: 20%;
+    height: auto;
+}
+.facts-items h1 {
+
+}
+.facts-items p {
+
+}
