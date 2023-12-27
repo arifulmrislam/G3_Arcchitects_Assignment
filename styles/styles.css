@@ -209,14 +209,79 @@ nav{
     margin: 40px 45px;
     padding: 30px 15px;
     border-radius: 10px;
+    border: 1px solid transparent #FF900E;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+.facts-items:hover{
+    cursor: pointer;
+    border: 2px solid #39A7FF;
 }
 .facts-items img{
     width: 20%;
     height: auto;
 }
 .facts-items h1 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 30px;
 
 }
 .facts-items p {
-
+    color: #727272;
+    font-size: 14px;
+    font-weight: 600;
 }
+/*************** Facts Styles end *****************/
+/*************** Sponsor Styles Start *****************/
+#sponsor {
+    margin: 40px 40px;
+}
+
+.sponsor-upper {
+    text-align:center;
+    padding-left: 20px;
+}
+
+.sponsor-upper h1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponsor-upper p {
+    color: #727272;
+    font-size: 14px;
+}
+
+.sponsor-lower {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; */
+    margin-bottom: 50px;
+}
+
+.sponsor-items {
+    text-align: center;
+    margin: 40px 45px;
+    padding: 30px 15px;
+}
+
+.sponsor-items img {
+    width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/*************** Sponsor Styles End ****************/
+/*************** Footer Styles Start **************/
+.footer{
+    text-align: center;
+    margin-bottom: 70px;
+    background-color: #FFF4E7;
+    padding: 25px 0;
+}
+/*************** Footer Styles End ****************/
